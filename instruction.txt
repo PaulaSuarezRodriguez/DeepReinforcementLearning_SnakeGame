@@ -1,0 +1,24 @@
+1. clone repo https://github.com/MonsterSpirit/gym-Snake-game.git
+
+2. Open setup.py and change it to
+
+from setuptools import setup
+
+setup(
+    name="tcs",
+    version="0.0.1",
+    packages=["tcs"],
+    install_requires=["gymnasium",
+                      "pygame",
+                      "stable-baselines3",
+                      "torch",
+                      "keyboard",
+                      "opencv-python"
+                      ]
+)
+
+3. open gym-Snake-game\tcs\envs\core.py and change mandarin messages 
+
+4. open condas env and cd to folder with env
+
+5. run pip install -e . to install env into pip
